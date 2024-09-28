@@ -71,11 +71,11 @@ super + c
     conky-toggle
 
 #archlinux-logout
-super + x
+super + shift + x
     archlinux-logout
 
 #powermenu
-super + shift + x
+super + x
     arcolinux-powermenu
 
 #nlogout
