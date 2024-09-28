@@ -1,6 +1,6 @@
 # Arco-chadwm-debian
 I've created this repo for testing purpose only for my self for easy access in my debian vm. 
-Please be careful only use them if you know exactly what you're doing !!!
+Please be careful and only use them if you know exactly what you're doing !!!
 
 ![image](https://github.com/bojanstrkovski-21/Arco-chadwm-debian/blob/master/chadwm-debian.png)
 
