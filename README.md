@@ -4,7 +4,7 @@ Please be careful and only use them if you know exactly what you're doing !!!
 
 ![image](https://github.com/bojanstrkovski-21/Arco-chadwm-debian/blob/master/chadwm-debian.png)
 
-## IMPORTANT !!! : COPY THE FOLDER <u>_debian-install_</u> INTO $Home/Templates OR CHANGE PATH INSIDE THE SCRIPT WHERE IT ASKS FOR THIS PATH OR *install-arcolinux-chadwm.sh* WILL NOT COPY THE IMPORTANT FILES TO PROPRIATE DIRECTORIES !!!
+## IMPORTANT !!! : COPY THE FOLDER _<u>debian-install</u>_ INTO $Home/Templates OR CHANGE PATH INSIDE THE SCRIPT WHERE IT ASKS FOR THIS PATH OR *install-arcolinux-chadwm.sh* WILL NOT COPY THE IMPORTANT FILES TO PROPRIATE DIRECTORIES !!!
 
 1. I downloaded latest debian12 net installer iso from debian.org
 2. I installed it with graphical install and installed minimal cli debian on VM (virtulal machine)
