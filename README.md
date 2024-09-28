@@ -6,6 +6,8 @@ Please be careful and only use them if you know exactly what you're doing !!!
 
 ## IMPORTANT !!! : COPY THE FOLDER  _debian-install_  INTO  _$Home/Templates_ OR CHANGE PATH INSIDE THE SCRIPT WHERE IT ASKS FOR THIS PATH OR *install-arcolinux-chadwm.sh* WILL NOT COPY THE IMPORTANT FILES TO PROPRIATE DIRECTORIES !!!
 
+## DISCLAIMER : IF YOU DECIDE TO TRY OUT THIS SCRIPTS PLEASE TEST THEM IN VM(VIRTULA MACHINE) RAHTER THAN ON REAL HARDWARE AND IF THEY WORK FOR IN THE VM THEN YOU CAN TRY THEM ON REAL HARDWARE. I AM NOT RESPONSIBLE FOR ANY SYSTEM PROBLEMS THAT MIGHT HAPPEN !!!
+
 1. I downloaded latest debian12 net installer iso from debian.org
 2. I installed it with graphical install and installed minimal cli debian on VM (virtulal machine)
 3. I runned scrits in this order (order its optional except for debian-install-xfce.sh because this is the the installation for xfce4 desktop as backend, dependecies needed for chadwm build and install, some apps and packages for functionality and use):
@@ -22,4 +24,4 @@ Please be careful and only use them if you know exactly what you're doing !!!
   
 4. Cd into arco-chadw folder and run install-arcolinux-chadwm.sh script to get and build the arcolinux-chadwm from arcolinux github and get arcolinux-powermenu
 
-## DISCLAIMER : IF YOU DECIDE TO TRY OUT THIS SCRIPTS PLEASE TEST THEM IN VM(VIRTULA MACHINE) RAHTER THAN ON REAL HARDWARE AND IF THEY WORK FOR IN THE VM THEN YOU CAN TRY THEM ON REAL HARDWARE. I AM NOT RESPONSIBLE FOR ANY SYSTEM PROBLEMS THAT MIGHT HAPPEN !!!
+
