@@ -8,6 +8,8 @@ Please be careful and only use them if you know exactly what you're doing !!!
 
 ## DISCLAIMER : IF YOU DECIDE TO TRY OUT THIS SCRIPTS PLEASE TEST THEM IN VM(VIRTULA MACHINE) RAHTER THAN ON REAL HARDWARE AND IF THEY WORK FOR IN THE VM THEN YOU CAN TRY THEM ON REAL HARDWARE. I AM NOT RESPONSIBLE FOR ANY SYSTEM PROBLEMS THAT MIGHT HAPPEN !!!
 
+### Installation Guide For Arcolinux-Chadwm on Debia 12 Bookworm
+
 1. I downloaded latest debian12 net installer iso from debian.org
 2. I installed it with graphical install and installed minimal cli debian on VM (virtulal machine)
 3. I runned scrits in this order (order its optional except for debian-install-xfce.sh because this is the the installation for xfce4 desktop as backend, dependecies needed for chadwm build and install, some apps and packages for functionality and use):
