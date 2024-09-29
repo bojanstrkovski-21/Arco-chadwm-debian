@@ -4,7 +4,7 @@ Please be careful and only use them if you know exactly what you're doing !!!
 
 ![image](https://github.com/bojanstrkovski-21/Arco-chadwm-debian/blob/master/chadwm-debian.png)
 
-## IMPORTANT !!! : COPY THE FOLDER  _debian-install_  INTO  _$Home/Templates_ OR CHANGE PATH INSIDE THE SCRIPT WHERE IT ASKS FOR THIS PATH OR *install-arcolinux-chadwm.sh* WILL NOT COPY THE IMPORTANT FILES TO PROPRIATE DIRECTORIES !!!
+## IMPORTANT !!! : MOVE OR GIT CLONE THE FOLDER  _Arco-chadwm-debian_  INTO  _$Home/DATA_ AFTER CREATING THE FOLDER FIRST OR CHANGE PATH INSIDE THE SCRIPT WHERE IT ASKS FOR THIS PATH (CD ~/DATA/Arco-chadwm-debian/debian-install/arco-chadw) OR *install-arcolinux-chadwm.sh* WILL NOT COPY THE IMPORTANT FILES TO PROPRIATE DIRECTORIES !!!
 
 ## DISCLAIMER : IF YOU DECIDE TO TRY OUT THIS SCRIPTS PLEASE TEST THEM IN VM(VIRTULA MACHINE) RAHTER THAN ON REAL HARDWARE AND IF THEY WORK FOR IN THE VM THEN YOU CAN TRY THEM ON REAL HARDWARE. I AM NOT RESPONSIBLE FOR ANY SYSTEM PROBLEMS THAT MIGHT HAPPEN !!!
 
@@ -31,7 +31,8 @@ Please be careful and only use them if you know exactly what you're doing !!!
       h. nfs.sh - need to edit nfs files in /etc/default as shown in the script (this i install and conf because i have nfs shared folder from my host pc)
   
       i. systemctl-enable.sh to enable few services
+      j. arc-dawn-gtk-theme.sh
   
-  4. Cd into arco-chadw folder and run install-arcolinux-chadwm.sh script to get and build the arcolinux-chadwm from arcolinux github and get arcolinux-powermenu
+  5. Cd into arco-chadw folder and run install-arcolinux-chadwm.sh script to get and build the arcolinux-chadwm from arcolinux github and get arcolinux-powermenu
 
 
