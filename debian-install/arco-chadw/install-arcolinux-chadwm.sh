@@ -17,6 +17,7 @@ cp -r arcolinux-chadwm/etc/skel/.bin ~
 cp -r arcolinux-chadwm/etc/skel/.config ~
 
 # overwriting the official code from ArcoLinux with my own
+cd ~/DATA/Arco-chadwm-debian/debian-install/arco-chadw
 installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 #cp ~/Templates/debian-install/arco-chadw/run.sh  ~/.config/arco-chadwm/scripts
 cp run.sh  ~/.config/arco-chadwm/scripts
