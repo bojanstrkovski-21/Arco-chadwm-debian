@@ -1,6 +1,29 @@
 #!/usr/bin/env bash
 
-mkdir ~/.fonts
+# Define the tools to check/install
+TOOLS=(git wget curl)
+
+# Loop through each tool
+for TOOL in "${TOOLS[@]}"; do
+  # Check if tool is installed
+  if ! command -v $TOOL &> /dev/null; then
+    echo "Tool: $TOOL is not installed. Installing..."
+    sudo apt-get update && sudo apt-get install -y $TOOL
+  fi
+done
+
+echo "Installation complete."
+
+# Check if ~/.fonts directory exists
+if [ ! -d "$HOME/.fonts" ]; then
+  echo "Creating ~/.fonts directory..."
+  mkdir -p "$HOME/.fonts"
+else
+  echo "directory already exists."
+fi
+
+echo "~/.fonts directory created."
+
 cd ~/.fonts
 
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/CascadiaCode.zip
