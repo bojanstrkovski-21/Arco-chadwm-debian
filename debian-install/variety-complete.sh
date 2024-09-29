@@ -38,5 +38,15 @@ sleep 3
 
 
 git clone https://github.com/arcolinux/arcolinux-variety.git
+
+if [ ! -d "$HOME/.config/variety" ]; then
+  echo "Creating ~/.fonts directory..."
+  mkdir -p "$HOME/.config/variety"
+else
+  echo "directory already exists."
+fi
+
+echo "~/.fonts directory created."
+
 mkdir -p ~/.config/variety
 cp -r arcolinux-variety/etc/skel/.config/variety/* ~/.config/variety
