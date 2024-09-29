@@ -36,12 +36,18 @@ ex ()
   fi
 }
 
+# ALIASES
+alias clean="clear; seq 1 $(tput cols) | sort -R | spark | /usr/games/lolcat"
 alias exa='exa -aloh --icons=always --group-directories-first'
 alias update="sudo apt update && sudo apt upgrade"
 alias sb="source ~/.bashrc"
 alias cd..="cd .."
 alias audio="pactl info | grep 'Server Name'"
 alias upd="sudo apt update -y && sudo apt upgrade -y"
+alias hw="hwinfo --short"
+alias howold="sudo lshw | grep -B 3 -A 8 BIOS"
+alias xd="ls /usr/share/xsessions"
+alias xdw="ls /usr/share/wayland-sessions"
 alias mfs="sudo mount -t nfs 192.168.0.120:/home/bojanstrko/mnt/Toshiba2 ~/nfs/Toshiba2"
 alias nv="nvim"
 alias snv="sudo -E -s nvim"
@@ -52,6 +58,7 @@ alias mkdir="mkdir -p"
 alias x="exit"
 alias chmo="chmod +x"
 alias ff="fastfetch"
+alias neo="neofetch"
 alias probe="sudo -E hw-probe -all -upload"
 alias nenvironment="sudo $EDITOR /etc/environment"
 alias gc="git clone"
