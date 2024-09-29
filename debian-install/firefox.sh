@@ -1,5 +1,18 @@
 #!/usr/bin/env bash
-#
+
+# Define the tools to check/install
+TOOLS=(git wget curl)
+
+# Loop through each tool
+for TOOL in "${TOOLS[@]}"; do
+  # Check if tool is installed
+  if ! command -v $TOOL &> /dev/null; then
+    echo "Tool: $TOOL is not installed. Installing..."
+    sudo apt-get update && sudo apt-get install -y $TOOL
+  fi
+done
+
+echo "Installation complete."
 
 # first create a directory to store the APT repository keys in terminal
 sudo install -d -m 0755 /etc/apt/keyrings
